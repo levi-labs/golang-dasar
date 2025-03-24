@@ -7,12 +7,12 @@ func logg() {
 	message := recover()
 	fmt.Println("ini Error", message)
 }
-func error(error bool) {
+func errorrr(error bool) {
 	defer logg()
 	if error {
 		panic("Something went wrong")
 	}
 }
 func main() {
-	error(true)
+	errorrr(true)
 }

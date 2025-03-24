@@ -6,7 +6,7 @@ func logging() {
 	fmt.Println("start logging")
 }
 
-func error(error bool) {
+func errorss(error bool) {
 	defer logging()
 	if error {
 		fmt.Println("error")
@@ -14,5 +14,5 @@ func error(error bool) {
 }
 func main() {
 	fmt.Println("start")
-	error(true)
+	errorss(true)
 }
